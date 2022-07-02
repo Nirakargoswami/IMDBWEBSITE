@@ -1,0 +1,41 @@
+.MovieCompepent {
+  display: flex;
+  flex-direction: row;
+  min-height: 400px;
+  margin-top: 50px;
+ 
+  justify-content: space-around;
+  overflow-x: hidden;
+  background-color: black
+  ;
+}
+.MovieCompepent:hover{
+  overflow-x: scroll;
+  background-color: rgb(39, 36, 36)
+}
+
+.MovieBox {
+
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  min-width: 200px;
+height: 90%;
+  justify-content: space-around;
+  color: white;
+}
+.MovieBox:hover{
+  border: 1px solid rgb(255, 255, 255);
+  background-color: black;
+}
+.MovieBoxImage {
+  min-height: 70%;
+  border: 1px solid black;
+  display: flex;
+ align-items: center;
+}
+.WatchMovie {
+display: flex;
+justify-content: center;
+align-items: center;
+}
