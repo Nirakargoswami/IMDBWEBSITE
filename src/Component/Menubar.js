@@ -36,7 +36,7 @@ export const Nevbar = function () {
           value={Input}
           onChange={(e) => setInput(e.target.value)}
           className="Input"
-          placeholder="place mobie name"
+          placeholder="search few movie  to see good result of recent movie "
         />
 
         <div className="commomnMain">

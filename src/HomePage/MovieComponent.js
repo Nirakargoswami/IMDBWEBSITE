@@ -16,22 +16,21 @@ export const MovieComponent = function () {
 
   console.log(visited);
   return (
-    <div className="MovieCompepent">
+    
+    <div   style={{display: visited ? "flex" : "none" }}  className="MovieCompepent">
       {visited
         ? visited.map((x) => {
             return (
               <Link to={`/${x.id}`}>
-              <div className="MovieBox">
-                <div className="MovieBoxImage">
-                  <img src={x.poster} />
-                </div>
-                <div>{x.title}</div>
-                <div>Runtime {x.Runtime}</div>
-                <div>Imdb Rating {x.Rating}</div>
-             
-                  <div className="WatchMovie">watch Movie on Amezon</div>
                 
-              </div>
+                <div className="MovieBox">
+                  <div className="MovieBoxImage">
+                    <img src={x.poster} />
+                  </div>
+                  <div>{x.title}</div>
+                  <div>Runtime {x.Runtime}</div>
+                  <div>Imdb Rating {x.Rating}</div>
+                </div>
               </Link>
             );
           })

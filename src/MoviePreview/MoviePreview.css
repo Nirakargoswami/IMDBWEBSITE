@@ -3,12 +3,13 @@
   margin-top: 50px;
   padding: 20px;
   background-color: rgb(0, 0, 0);
+ 
 }
 
 .Main {
   height: 400px;
 
-  border: 1px solid black;
+ 
   display: flex;
   flex-direction: column;
   color: white;
@@ -33,7 +34,7 @@ justify-content: space-between;
   
     display: flex;
     flex: 0.8;
-    border: 1px solid black;
+  
   align-items: center;
    justify-content: center;
    
@@ -54,3 +55,6 @@ justify-content: space-between;
   
 
 }
+ .Description * {
+   color: white;
+ }

@@ -105,7 +105,7 @@ export const MoviewPreviewMian = function () {
             </div>
             <div className="Description">
               <div>
-                <h1>Harry Potter and the Deathly Hallows: Part 1</h1>
+                <h1> {movie.Title}</h1>
                 <h1> {movie.Runtime}</h1>
               </div>
               <div>{movie.Plot}</div>

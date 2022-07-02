@@ -6,7 +6,7 @@ export const HomePage = () => {
     return (
         <>
         <Nevbar/>
-        
+       <h1 style={{marginTop:"20px"}} >Recent movie </h1>
         <MovieComponent/>
         </>
     )
